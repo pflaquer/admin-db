@@ -9,7 +9,7 @@ return (`
   <label for="pname">Price</label>
   <input type="number" id="pname" name="pname"><br><br>
   <label for="imgname">Images</label>
-  <input type="file" id="imgname" name="imgname" accept="image/png, image/jpeg" />
+  <input type="file" id="imgname" name="imgname" accept="image/png, image/jpeg" multiple />
   <br><br>
   <input type="submit" value="Submit">
 </form>
