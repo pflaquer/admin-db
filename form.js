@@ -1,7 +1,8 @@
 function form(){
+const api = 'https://nodejs-db-app.onrender.com/api/items'
 return (`
 
-<form action="https://nodejs-db-app.onrender.com/api/items" method="post">
+<form action="${api}" method="post">
   <label for="fname">Title</label>
   <input type="text" id="fname" name="fname"><br><br>
   <label for="lname">Description</label>
