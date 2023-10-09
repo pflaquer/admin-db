@@ -1,6 +1,6 @@
 function form(){
-return (
-  `
+return (`
+
 <form action="/" method="post">
   <label for="fname">Title</label>
   <input type="text" id="fname" name="fname"><br><br>
@@ -17,4 +17,4 @@ return (
 `)
 }
 
-export default function form
+export default form
